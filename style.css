@@ -128,7 +128,7 @@ h1 {
 @media (max-width: 500px) {
   .container {
     width: 90%;
-    margin-top: 130px;
+    margin-top: 80px;
   }
   .sexo label {
     padding: 5px;
