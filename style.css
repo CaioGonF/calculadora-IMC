@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   margin-inline: auto;
-  background: linear-gradient(#000000 55%, #4682b4 55%);
+  background: linear-gradient(#000000 40%, #4682b4 40%);
   background-repeat: no-repeat;
   height: 100vh;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
