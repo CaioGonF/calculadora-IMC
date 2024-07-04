@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora IMC</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="alerta">
+    <p>
+      Os campos Altura e Peso não foram preenchidos.
+    </p>
+  </div>
+  <div class="container">
+    <div>
+      <h1>Calcule seu IMC</h1>
+    </div>
+    <div class="conteudo">
+      <div class="sexo">
+        <input type="radio" name="sexo" id="masculino" value="masculino" class="sexoOpcao" checked>
+        <label for="masculino"> Masculino</label>
+
+        <input type="radio" name="sexo" id="feminino" value="feminino" class="sexoOpcao">
+        <label for="feminino"> Feminino </label>
+
+
+
+      </div>
+
+
+      <div class="opcao">
+        <label for="">Insira o seu peso aqui</label>
+        <input type="number" name="peso" id="peso" placeholder="Peso (Kg)" min="0">
+      </div>
+      <div class="opcao">
+        <label for="">Insira a sua altura aqui</label>
+        <input type="number" name="altura" id="altura" placeholder="Altura (cm)" min="0">
+      </div>
+      <div>
+        <button class="botao" onclick="calcular()">calcular</button>
+      </div>
+      <div class="resultado">
+        <div id="numero">
+          12
+        </div>
+        <div id="descricao">Obesidade grau I</div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
