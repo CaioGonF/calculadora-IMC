@@ -116,7 +116,15 @@ h1 {
 #descricao {
   text-align: center;
 }
-
+@media (min-width: 1600px) {
+  .container {
+    height: 650px;
+    width: 570px;
+  }
+  .conteudo {
+    padding: 65px 30px;
+  }
+}
 @media (max-width: 500px) {
   .container {
     width: 90%;
